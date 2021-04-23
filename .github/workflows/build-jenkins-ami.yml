@@ -2,7 +2,6 @@ name: Build Jenkins AMI Workflow
 
 on:  
   push:
-  pull_request:
     branches:
       - main
 
@@ -10,8 +9,6 @@ on:
 
 jobs:
   validate-ami:
-
-    if: ${{ github.event_name == 'pull_request' }}
 
     # specify runner
     runs-on: ubuntu-20.04
@@ -34,8 +31,6 @@ jobs:
 
   build-ami:
 
-    if: ${{ github.event_name == 'push' }}
-    
     # specify runner
     runs-on: ubuntu-20.04
 

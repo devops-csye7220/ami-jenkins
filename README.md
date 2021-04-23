@@ -1,6 +1,4 @@
-#  Jenkins AMI  <img align="right" src="https://github.com/csye7125-sp2021-advcloud/ami-jenkins/workflows/Build%20Jenkins%20AMI%20Workflow/badge.svg" />
-
-
+#  Jenkins AMI 
 
 The AMI is a supported and maintained Ubuntu 20.04 image for use on Amazon Elastic Compute Cloud (Amazon EC2). It is designed to provide a stable, secure, and high performance execution environment for applications running on Amazon EC2.
 
