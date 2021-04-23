@@ -18,8 +18,8 @@
             "source_ami": "{{user `source_ami`}}",
             "ssh_username": "{{user `ssh_username`}}",
             "ami_users": "{{user `ami_users`}}",
-            "ami_name": "csye7125_jenkins_{{timestamp}}",
-            "ami_description": "Ubuntu AMI for CSYE 7125 - Spring 2021",
+            "ami_name": "csye7220_jenkins_{{timestamp}}",
+            "ami_description": "Ubuntu AMI for CSYE 7220 - Spring 2021",
             "launch_block_device_mappings": [
                 {
                     "device_name": "/dev/sda1",
@@ -29,7 +29,7 @@
                 }
             ],
             "tags": {
-                "Name": "csye7125-ami-jenkins"
+                "Name": "csye7220-ami-jenkins"
             }
         }
     ],
